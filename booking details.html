@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #00ff00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px
+}
+
+input[type=submit]:hover {
+  background-color:#00ff00;
+}
+
+div {
+  border-radius: 5px;
+  background-color:#8B4513;
+  padding: 20px;
+}
+
+
+input[type=reset] {
+  width: 40%;
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #f83131;
+}
+</style>
+
+<body>
+<form action="final.html" method="">
+<center>
+<h1><i>Booking Details</i></h1>
+
+ <label for="name">Name: </label>
+  <input type="text" id="name" name="name"><br><br>
+
+ <label for="starting">Starting Place:</label>
+  <select name="starting" id="starting">
+
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Noida">Noida</option>
+                        <option value="Kochi">Kochi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Indore">Indore</option>
+
+  </select><br><br>
+
+ <label for="end">Ending Place:</label>
+  <select name="end" id="end">
+
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Noida">Noida</option>
+                        <option value="Kochi">Kochi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Indore">Indore</option>
+  </select><br><br>
+
+ <label for="Train name">Train Name: </label>
+  <input type="text" id="Train name" name="Train name"><br><br>
+
+ <label for="Number of Tickets">Number of Tickets: </label>
+  <input type="number" id="Number of Tickets" name="Number of Tickets"><br><br>
+
+ <label for="date">Date of Journey: </label>
+  <input type="date" id="date" name="date"><br><br>
+
+<label for="Time"> Time of Journey: </label>
+  <input type="time" id="time" name="time"><br><br>
+<label for="Payment"> Payment: </label>
+   <select name="payment" id="payment">
+  <option value="850">850</option>
+  <option value="1500">1500</option>
+  <option value="950">950</option>
+  <option value="725">725</option>
+</select> <br><br>
+
+
+
+ <input type="submit" value="Submit"> &nbsp;
+  <input type="reset" value="Cancel">
+</center>
+</form>
+</body>
+</html>
